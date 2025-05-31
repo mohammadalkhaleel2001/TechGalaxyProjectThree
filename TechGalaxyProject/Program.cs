@@ -25,7 +25,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowNetlifyApp", policy =>
     {
-        policy.WithOrigins("https://6838bdbf7d53c7ba2a471fe9--steady-rugelach-10f3fa.netlify.app")
+        policy.WithOrigins("https://jolly-gumdrop-7d2a26.netlify.app")
 
               .AllowAnyHeader()
               .AllowAnyMethod();

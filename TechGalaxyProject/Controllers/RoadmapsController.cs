@@ -53,8 +53,8 @@ namespace TechGalaxyProject.Controllers
                     r.Title,
                     r.Description,
                     CoverImageUrl = string.IsNullOrEmpty(r.CoverImageUrl)
-    ? $"{baseUrl}/Images/default.png"
-    : $"{baseUrl}{r.CoverImageUrl}",
+                    ? $"{baseUrl}/Images/default.png"
+                    : $"{baseUrl}{r.CoverImageUrl}",
 
                     r.Category,
                     r.DifficultyLevel,
